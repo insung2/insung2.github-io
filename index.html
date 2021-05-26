@@ -3,110 +3,86 @@
 <head>
 <meta charset='utf-8'>
 <style>
-table, th, tr, td {
-	border: solid 1px black;
-	border-collapse: collapse;
-	padding: 8px;
-}
+*{padding: 0px;
+margin: 0px;}
+
+header,nav,section,aside,footer{border: solid 0px red;}
+header{width: 995px; height: 100px; margin-top: 10px;}
+nav{width: 996px; height: 70px; margin-top: 10px;}
+section{width: 770px; height: 350px; margin-top: 10px;float: left; 
+margin-right: 29px;}
+aside{width: 190px; height: 350px; margin-top: 10px; margin-left:5px; float: left;}
+footer{width:995px; height: 130px; margin-top: 30px;}
+.clear{clear: both;}
+#logo{border: solid 0px blue;}
+#logo{float: left;
+margin-top: 50px;
+margin-left: 15px;}
+
+li{float: left;
+list-style-type: none;}
+#address{float: left;
+margin-top: 30px;
+margin-left: 50px;}
+#customer{float: left;
+margin-top: 20px;
+margin-left: 180px;}
+h3{margin: 10px;}
+img{width: 800px; height: 350px;}
+.yellow{background-color: yellowgreen}
+.green{background-color: powderblue;}
+.pink{color: pink;}
+.orange{background-color: salmon;}
+.red{background-color: cornflowerblue;}
 </style>
 </head>
 <body>
-<h3><a href="form_test.html">회원가입</a></h3>
-<h3><a href="rubato.html">루바토 펜션 안내</a></h3>
-<h2><a href="css.html">호서행사안내</a></h2>
-<h3><a href="night.html">호서야간개장</a></h3>
-<h3><a href="ex3.html">세일 안내장</a></h3>
-<h3><a href="table.html">월간 일정표</a></h3>
-<h3><a href="shopping.html">판매 목록 화면 만들기</a></h3>
+<header class="yellow">
+<div id="logo"><h4>호서대학교 20180605 이인성입니다 저의 시간표를 소개해 드리겠습니다.</h4></div>
 
-<table>
+</header>
+<nav class="green">
+ <ul>
+	 <li><h3><a href="form_test.html">회원가입</a></h3></li>
 
-	<tr>
-		<td>요일</td><td>월</td><td>화</td><td>수</td>
-		<td>목</td><td>금</td>
-		</tr>
+	 <li><h3><a href="rubato.html">루바토 펜션 안내</a></h3></li>
 
-			    <tr>
-				<td>09:30~10:20</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td>웹프로그래밍</td>
-				<td></td>
-				</tr>
+	 <li><h3><a href="css.html">호서행사안내</a></h3></li>
 
-				<tr>
-				<td>10:30~11:20</td>
-				<td rowspan='2'>웹프로그래밍</td>
-				<td></td>
-				<td></td>
-				<td rowspan='3'>경영정보시스템</td>
-				<td></td>
-				</tr>
+	 <li><h3><a href="night.html">호서야간개장</a></h3></li>
 
-				<tr>
-				<td>11:30~12:20</td>
-				
-				<td rowspan='2'>세계사를 바꾼 사건들과<br>벤처정신</td>
-	            <td rowspan='2'>대학영어회화2</td>
-				
-				<td></td>
-				</tr>
+	 <li><h3><a href="ex3.html">세일 안내장</a></h3></li>
 
-				<tr>
-				<td>12:30~13:20</td>
-				<td></td>
-				
-				
-				
-				<td></td>
-				</tr>
+	 <li><h3><a href="table.html">월간 일정표</a></h3></li>
 
-				<tr>
-				<td>13:30~14:20</td>
-				<td></td>
-				<td rowspan='3'>경영통계</td>
-				<td></td>
-				<td>채플</td>
-				<td></td>
-				</tr>
+     <li><h3><a href="shopping.html">판매 목록 화면 만들기</a></h3></li>
+	 </ul>
+</nav>
+<section> 
+	<img src='abc.jpg'>
+</section>
+<aside class="orange">
+  	<ul>
+		  <li>
+            <h4 class="pink">공지사항 1</h4>
+          </li>
+		  <li>이제 곧 종강입니다</li>
+          <li>조금만 더 힘내서</li>
+          <li>행복한 방학을 맞이</li>
+          <li>하시길 바랍니다^^</li>
+          <br>
+          <li><h4 class="pink">공지사항 2</h4></li>
+          <li>무더운 여름 잘보내고</li>
+          <li>여름 안전사고 유의하세요 </li>
+          <li>그럼 다음에 또 만나요</li>
+          <li>잘 살아요</li>
 
-				<tr>
-				<td>14:30~15:20</td>
-				<td></td>
-				
-				<td></td>
-				<td></td>
-				<td></td>
-				</tr>
-								
-				<tr>
-				<td>15:30~16:20</td>
-				<td></td>
-				
-				<td></td>
-				<td></td>
-                <td>자기이해개발1</td>
-				</tr>
-
-				<tr>
-				<td>16:30~17:20</td>
-				<td rowspan="2">그리스로마신화</td>
-			    <td rowspan="2">공감과소통</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				</tr>
-
-				<tr>
-				<td>17:30~18:20</td>
-				
-				
-				<td></td>
-				<td></td>
-				<td></td>
-				
-				</tr>
-									
+		  </ul>
+</aside>
+<div class='clear'></div>
+<footer>
+	<div class="red"><h4>대표이사:이인성 ㅣ 대표이사번호:010-1112-1119 ㅣ 주소:경기도 안에서 살고있음 ㅣ 지금까지 시간표 소개시간이였습니다. </h4></div>
+	
+</footer>
 </body>
 </html>
